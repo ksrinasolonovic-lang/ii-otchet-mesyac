@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Дашборд. Карина Солонович. Октябрь 2026</title>
+<style>
+  body { margin: 20px auto 40px; max-width: 980px; background: #fff; font-family: "Segoe UI", sans-serif; color: #1f1f1f; }
+  h1 { font-size: 20px; font-weight: 600; margin: 0 0 4px; }
+  h2 { font-size: 14px; font-weight: 600; margin: 0 0 8px; }
+  .meta, .axis { color: #555; font-size: 12px; margin: 0 0 10px; }
+  .summary, .facts { display: flex; flex-wrap: wrap; gap: 18px; margin: 0 0 14px; }
+  .stat b { display: block; font-size: 22px; font-weight: 600; line-height: 1.1; }
+  .stat span, .fact span { color: #555; font-size: 12px; }
+  .fact { min-width: 180px; }
+  .fact b { display: block; font-size: 14px; font-weight: 600; }
+  .grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 18px 28px; align-items: start; }
+  .card { margin: 0 0 18px; }
+  .row { display: flex; align-items: center; gap: 8px; margin: 3px 0; }
+  .name { width: 200px; flex: 0 0 200px; font-size: 12px; line-height: 1.2; }
+  .name-short { width: 92px; flex-basis: 92px; }
+  .bar { height: 12px; background: #2fc6f6; flex: 0 0 auto; }
+  .num { width: 28px; flex: 0 0 28px; font-size: 12px; }
+  .swatch { width: 8px; height: 8px; flex: 0 0 8px; }
+  .donuts { display: flex; flex-wrap: wrap; gap: 28px; }
+  .donut-block { display: flex; gap: 14px; align-items: center; }
+  .donut { width: 116px; height: 116px; border-radius: 50%; position: relative; flex: 0 0 116px; }
+  .donut::after { content: ""; position: absolute; inset: 34px; background: #fff; border-radius: 50%; }
+  .donut span { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 600; z-index: 1; }
+  .legend { font-size: 12px; margin: 3px 0; }
+  .legend i { display: inline-block; width: 8px; height: 8px; margin-right: 6px; }
+  .legend span { color: #666; }
+  svg { width: 100%; height: auto; display: block; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 5px 8px; border-bottom: 1px solid #e4e4e4; vertical-align: top; }
+  th { font-weight: 600; color: #333; }
+</style>
+</head>
+<body>
+<h1>Дашборд за октябрь 2026. Карина Солонович</h1>
+<p class="meta">Индикаторы, диаграммы, график и таблицы из файла «диаграмма-октябрь Солонович». История Cursor за 1–31 октября, только папка «ОТДЕЛ ПЕРСОНАЛА\ИИ».</p>
+<div class="summary">
+  <div class="stat"><b>15</b><span>проектов</span></div>
+  <div class="stat"><b>114</b><span>документов</span></div>
+  <div class="stat"><b>38</b><span>файлов автоматизации</span></div>
+  <div class="stat"><b>340</b><span>правок кода</span></div>
+  <div class="stat"><b>50%</b><span>документов на месте</span></div>
+</div>
+<div class="facts">
+  <div class="fact"><b>1 октября, 15</b><span>пиковый день, документов</span></div>
+  <div class="fact"><b>ИИ запросы, 41</b><span>больше всего файлов</span></div>
+  <div class="fact"><b>ИИ Отзывы, 301</b><span>правок кода из 340</span></div>
+</div>
+<div class="grid">
+  <section class="card">
+    <h2>Диаграмма по проектам</h2>
+    <p class="axis">Длина полоски — файлы проекта: документы и автоматизация</p>
+    <div class="row"><div class="name">ИИ запросы</div><div class="bar" style="width:200px"></div><div class="num">41</div></div>
+<div class="row"><div class="name">ИИ Прием сотрудника</div><div class="bar" style="width:161px"></div><div class="num">33</div></div>
+<div class="row"><div class="name">ИИ Отзывы</div><div class="bar" style="width:73px"></div><div class="num">15</div></div>
+<div class="row"><div class="name">ИИ Битрикс 24</div><div class="bar" style="width:49px"></div><div class="num">10</div></div>
+<div class="row"><div class="name">ИИ обучение</div><div class="bar" style="width:44px"></div><div class="num">9</div></div>
+<div class="row"><div class="name">ИИ ШР</div><div class="bar" style="width:39px"></div><div class="num">8</div></div>
+<div class="row"><div class="name">ИИ сверка</div><div class="bar" style="width:34px"></div><div class="num">7</div></div>
+<div class="row"><div class="name">ИИ айлекс</div><div class="bar" style="width:29px"></div><div class="num">6</div></div>
+<div class="row"><div class="name">ИИ Подряда</div><div class="bar" style="width:29px"></div><div class="num">6</div></div>
+<div class="row"><div class="name">ИИ Подарки на НГ</div><div class="bar" style="width:20px"></div><div class="num">4</div></div>
+<div class="row"><div class="name">ИИ Медосмотр</div><div class="bar" style="width:20px"></div><div class="num">4</div></div>
+<div class="row"><div class="name">ИИ ВХОДЯЩАЯ КОРРЕСПОНДЕНЦИЯ П.Л.Кузавка</div><div class="bar" style="width:20px"></div><div class="num">4</div></div>
+<div class="row"><div class="name">ИИ Айболит</div><div class="bar" style="width:10px"></div><div class="num">2</div></div>
+<div class="row"><div class="name">ИИ Должностные инстукции</div><div class="bar" style="width:10px"></div><div class="num">2</div></div>
+<div class="row"><div class="name">ИИ Продление контракта</div><div class="bar" style="width:5px"></div><div class="num">1</div></div>
+
+  </section>
+  <div>
+    <section class="card">
+      <h2>Диаграмма по виду документа</h2>
+      <p class="axis">Сколько документов этого вида</p>
+      <div class="row"><div class="swatch" style="background:#2fc6f6"></div><div class="name name-short">Word .docx</div><div class="bar bar-doc" style="width:160px;background:#2fc6f6"></div><div class="num">59</div></div>
+<div class="row"><div class="swatch" style="background:#5dade2"></div><div class="name name-short">Word .doc</div><div class="bar bar-doc" style="width:22px;background:#5dade2"></div><div class="num">8</div></div>
+<div class="row"><div class="swatch" style="background:#8eadd2"></div><div class="name name-short">Excel .xlsx</div><div class="bar bar-doc" style="width:73px;background:#8eadd2"></div><div class="num">27</div></div>
+<div class="row"><div class="swatch" style="background:#85929e"></div><div class="name name-short">Excel .xls</div><div class="bar bar-doc" style="width:8px;background:#85929e"></div><div class="num">3</div></div>
+<div class="row"><div class="swatch" style="background:#7dcea0"></div><div class="name name-short">RTF</div><div class="bar bar-doc" style="width:43px;background:#7dcea0"></div><div class="num">16</div></div>
+<div class="row"><div class="swatch" style="background:#1a5276"></div><div class="name name-short">PDF</div><div class="bar bar-doc" style="width:4px;background:#1a5276"></div><div class="num">1</div></div>
+
+    </section>
+    <section class="card">
+      <h2>Диаграмма: где документ</h2>
+      <p class="axis">Из 114 документов</p>
+      <div class="row"><div class="name name-short">На месте</div><div class="bar" style="width:160px"></div><div class="num">57</div></div>
+      <div class="row"><div class="name name-short">Пути уже нет</div><div class="bar bar-doc" style="width:160px"></div><div class="num">57</div></div>
+    </section>
+  </div>
+</div>
+<section class="card">
+  <h2>Круговые диаграммы</h2>
+  <div class="donuts">
+    <div class="donut-block">
+      <div class="donut" style="background:conic-gradient(#2fc6f6 0% 51.75%, #5dade2 51.75% 58.77%, #8eadd2 58.77% 82.46%, #85929e 82.46% 85.09%, #7dcea0 85.09% 99.12%, #1a5276 99.12% 100%)"><span>114</span></div>
+      <div>
+        <p class="axis">Доля видов документов</p>
+        <div class="legend"><i style="background:#2fc6f6"></i>Word .docx <b>59</b> <span>52%</span></div>
+<div class="legend"><i style="background:#5dade2"></i>Word .doc <b>8</b> <span>7%</span></div>
+<div class="legend"><i style="background:#8eadd2"></i>Excel .xlsx <b>27</b> <span>24%</span></div>
+<div class="legend"><i style="background:#85929e"></i>Excel .xls <b>3</b> <span>3%</span></div>
+<div class="legend"><i style="background:#7dcea0"></i>RTF <b>16</b> <span>14%</span></div>
+<div class="legend"><i style="background:#1a5276"></i>PDF <b>1</b> <span>1%</span></div>
+
+      </div>
+    </div>
+    <div class="donut-block">
+      <div class="donut" style="background:conic-gradient(#2fc6f6 0% 50%, #8eadd2 50% 100%)"><span>50%</span></div>
+      <div>
+        <p class="axis">Документ ещё на прежнем пути</p>
+        <div class="legend"><i style="background:#2fc6f6"></i>На месте <b>57</b></div>
+        <div class="legend"><i style="background:#8eadd2"></i>Пути уже нет <b>57</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="card">
+  <h2>График по дням</h2>
+  <p class="axis">Число документов за день октября. Подпись под столбцом — число месяца.</p>
+  <svg viewBox="0 0 560 148" role="img" aria-label="Документы по дням октября">
+    <line x1="32" y1="118" x2="556" y2="118" stroke="#e4e4e4"></line>
+<line x1="32" y1="70" x2="556" y2="70" stroke="#e4e4e4"></line>
+<line x1="32" y1="28" x2="556" y2="28" stroke="#e4e4e4"></line>
+
+    <polyline points="43,28 71.9,106 100.8,94 129.7,88 158.6,94 187.4,76 216.3,94 245.2,40 274.1,94 303,64 331.9,46 360.8,88 389.7,88 418.6,106 447.4,94 476.3,64 505.2,100 534.1,76" fill="none" stroke="#1a5276" stroke-width="1.5"></polyline>
+    <rect x="36" y="28" width="14" height="90" fill="#7dcea0"></rect>
+<text x="43" y="24" text-anchor="middle" font-size="10" fill="#333">15</text>
+<rect x="64.9" y="106" width="14" height="12" fill="#7dcea0"></rect>
+<text x="71.9" y="102" text-anchor="middle" font-size="10" fill="#333">2</text>
+<rect x="93.8" y="94" width="14" height="24" fill="#7dcea0"></rect>
+<text x="100.8" y="90" text-anchor="middle" font-size="10" fill="#333">4</text>
+<rect x="122.7" y="88" width="14" height="30" fill="#7dcea0"></rect>
+<text x="129.7" y="84" text-anchor="middle" font-size="10" fill="#333">5</text>
+<rect x="151.6" y="94" width="14" height="24" fill="#7dcea0"></rect>
+<text x="158.6" y="90" text-anchor="middle" font-size="10" fill="#333">4</text>
+<rect x="180.4" y="76" width="14" height="42" fill="#7dcea0"></rect>
+<text x="187.4" y="72" text-anchor="middle" font-size="10" fill="#333">7</text>
+<rect x="209.3" y="94" width="14" height="24" fill="#7dcea0"></rect>
+<text x="216.3" y="90" text-anchor="middle" font-size="10" fill="#333">4</text>
+<rect x="238.2" y="40" width="14" height="78" fill="#7dcea0"></rect>
+<text x="245.2" y="36" text-anchor="middle" font-size="10" fill="#333">13</text>
+<rect x="267.1" y="94" width="14" height="24" fill="#7dcea0"></rect>
+<text x="274.1" y="90" text-anchor="middle" font-size="10" fill="#333">4</text>
+<rect x="296" y="64" width="14" height="54" fill="#7dcea0"></rect>
+<text x="303" y="60" text-anchor="middle" font-size="10" fill="#333">9</text>
+<rect x="324.9" y="46" width="14" height="72" fill="#7dcea0"></rect>
+<text x="331.9" y="42" text-anchor="middle" font-size="10" fill="#333">12</text>
+<rect x="353.8" y="88" width="14" height="30" fill="#7dcea0"></rect>
+<text x="360.8" y="84" text-anchor="middle" font-size="10" fill="#333">5</text>
+<rect x="382.7" y="88" width="14" height="30" fill="#7dcea0"></rect>
+<text x="389.7" y="84" text-anchor="middle" font-size="10" fill="#333">5</text>
+<rect x="411.6" y="106" width="14" height="12" fill="#7dcea0"></rect>
+<text x="418.6" y="102" text-anchor="middle" font-size="10" fill="#333">2</text>
+<rect x="440.4" y="94" width="14" height="24" fill="#7dcea0"></rect>
+<text x="447.4" y="90" text-anchor="middle" font-size="10" fill="#333">4</text>
+<rect x="469.3" y="64" width="14" height="54" fill="#7dcea0"></rect>
+<text x="476.3" y="60" text-anchor="middle" font-size="10" fill="#333">9</text>
+<rect x="498.2" y="100" width="14" height="18" fill="#7dcea0"></rect>
+<text x="505.2" y="96" text-anchor="middle" font-size="10" fill="#333">3</text>
+<rect x="527.1" y="76" width="14" height="42" fill="#7dcea0"></rect>
+<text x="534.1" y="72" text-anchor="middle" font-size="10" fill="#333">7</text>
+
+    <text x="43" y="136" text-anchor="middle" font-size="10" fill="#555">01</text>
+<text x="71.9" y="136" text-anchor="middle" font-size="10" fill="#555">02</text>
+<text x="100.8" y="136" text-anchor="middle" font-size="10" fill="#555">05</text>
+<text x="129.7" y="136" text-anchor="middle" font-size="10" fill="#555">06</text>
+<text x="158.6" y="136" text-anchor="middle" font-size="10" fill="#555">07</text>
+<text x="187.4" y="136" text-anchor="middle" font-size="10" fill="#555">08</text>
+<text x="216.3" y="136" text-anchor="middle" font-size="10" fill="#555">09</text>
+<text x="245.2" y="136" text-anchor="middle" font-size="10" fill="#555">12</text>
+<text x="274.1" y="136" text-anchor="middle" font-size="10" fill="#555">13</text>
+<text x="303" y="136" text-anchor="middle" font-size="10" fill="#555">14</text>
+<text x="331.9" y="136" text-anchor="middle" font-size="10" fill="#555">19</text>
+<text x="360.8" y="136" text-anchor="middle" font-size="10" fill="#555">20</text>
+<text x="389.7" y="136" text-anchor="middle" font-size="10" fill="#555">21</text>
+<text x="418.6" y="136" text-anchor="middle" font-size="10" fill="#555">26</text>
+<text x="447.4" y="136" text-anchor="middle" font-size="10" fill="#555">27</text>
+<text x="476.3" y="136" text-anchor="middle" font-size="10" fill="#555">28</text>
+<text x="505.2" y="136" text-anchor="middle" font-size="10" fill="#555">29</text>
+<text x="534.1" y="136" text-anchor="middle" font-size="10" fill="#555">30</text>
+
+  </svg>
+</section>
+<section class="card">
+  <h2>Таблица по проектам</h2>
+  <p class="axis">Доля — от 152 файлов: 114 документов и 38 файлов автоматизации.</p>
+  <table>
+    <thead><tr><th>Проект</th><th>Документы</th><th>Код</th><th>Всего</th><th>Доля</th><th>Правки</th></tr></thead>
+    <tbody>
+    <tr><td>ИИ запросы</td><td>40</td><td>1</td><td>41</td><td>27%</td><td>2</td></tr>
+<tr><td>ИИ Прием сотрудника</td><td>30</td><td>3</td><td>33</td><td>22%</td><td>8</td></tr>
+<tr><td>ИИ Отзывы</td><td>0</td><td>15</td><td>15</td><td>10%</td><td>301</td></tr>
+<tr><td>ИИ Битрикс 24</td><td>2</td><td>8</td><td>10</td><td>7%</td><td>15</td></tr>
+<tr><td>ИИ обучение</td><td>9</td><td>0</td><td>9</td><td>6%</td><td>0</td></tr>
+<tr><td>ИИ ШР</td><td>7</td><td>1</td><td>8</td><td>5%</td><td>1</td></tr>
+<tr><td>ИИ сверка</td><td>7</td><td>0</td><td>7</td><td>5%</td><td>0</td></tr>
+<tr><td>ИИ айлекс</td><td>1</td><td>5</td><td>6</td><td>4%</td><td>7</td></tr>
+<tr><td>ИИ Подряда</td><td>5</td><td>1</td><td>6</td><td>4%</td><td>1</td></tr>
+<tr><td>ИИ Подарки на НГ</td><td>2</td><td>2</td><td>4</td><td>3%</td><td>3</td></tr>
+<tr><td>ИИ Медосмотр</td><td>4</td><td>0</td><td>4</td><td>3%</td><td>0</td></tr>
+<tr><td>ИИ ВХОДЯЩАЯ КОРРЕСПОНДЕНЦИЯ П.Л.Кузавка</td><td>4</td><td>0</td><td>4</td><td>3%</td><td>0</td></tr>
+<tr><td>ИИ Айболит</td><td>0</td><td>2</td><td>2</td><td>1%</td><td>2</td></tr>
+<tr><td>ИИ Должностные инстукции</td><td>2</td><td>0</td><td>2</td><td>1%</td><td>0</td></tr>
+<tr><td>ИИ Продление контракта</td><td>1</td><td>0</td><td>1</td><td>1%</td><td>0</td></tr>
+
+    </tbody>
+  </table>
+</section>
+<section class="card">
+  <h2>Таблица автоматизации</h2>
+  <table>
+    <thead><tr><th>Проект</th><th>Файлов</th><th>Правок</th><th>Типы</th></tr></thead>
+    <tbody>
+    <tr><td>ИИ Отзывы</td><td>15</td><td>301</td><td>py, mdc, без расширения, txt, gcloudignore, yaml, md, gitignore, example</td></tr>
+<tr><td>ИИ Битрикс 24</td><td>8</td><td>15</td><td>js, svg, env, json, css, gitignore, html</td></tr>
+<tr><td>ИИ Прием сотрудника</td><td>3</td><td>8</td><td>mdc, md</td></tr>
+<tr><td>ИИ айлекс</td><td>5</td><td>7</td><td>mdc, py, md, env, gitignore</td></tr>
+<tr><td>ИИ Подарки на НГ</td><td>2</td><td>3</td><td>py</td></tr>
+<tr><td>ИИ запросы</td><td>1</td><td>2</td><td>py</td></tr>
+<tr><td>ИИ Айболит</td><td>2</td><td>2</td><td>gitignore, env</td></tr>
+<tr><td>ИИ ШР</td><td>1</td><td>1</td><td>mdc</td></tr>
+<tr><td>ИИ Подряда</td><td>1</td><td>1</td><td>py</td></tr>
+
+    </tbody>
+  </table>
+</section>
+</body>
+</html>
